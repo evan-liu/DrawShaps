@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_app">#EEEFF0</color>
+    <color name="background_draw">#FFFFFF</color>
+    <color name="background_tools">#33000000</color>
+    <color name="background_panel">#CCFFFFFF</color>
+
+    <color name="red">#E50000</color>
+    <color name="yellow">#ffff14</color>
+    <color name="green">#15B01A</color>
+    <color name="blue">#0343DF</color>
+    <color name="violet">#9A0EEA</color>
+    <color name="brown">#653700</color>
+    <color name="orange">#F97306</color>
+    <color name="mustard">#CEB301</color>
+    <color name="indigo">#380282</color>
+    <color name="pink">#FF81C0</color>
+    <color name="black">#000000</color>
+    <color name="sky">#75BBFD</color>
+
+    <array name="draw_colors">
+        <item>@color/sky</item>
+        <item>@color/green</item>
+        <item>@color/blue</item>
+        <item>@color/black</item>
+        <item>@color/indigo</item>
+        <item>@color/brown</item>
+        <item>@color/violet</item>
+        <item>@color/red</item>
+        <item>@color/orange</item>
+        <item>@color/pink</item>
+        <item>@color/mustard</item>
+        <item>@color/yellow</item>
+    </array>
+
+</resources>

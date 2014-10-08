@@ -1,0 +1,175 @@
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/drawer_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.evancoding.drawshapes.view.DrawView
+        android:id="@+id/drawView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:id="@+id/toolsLayout"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/tools_panel_margin"
+        android:layout_width="@dimen/tools_panel_land"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tool_panel_bg"
+        android:layout_gravity="start|center_vertical"
+        android:gravity="center_horizontal">
+
+        <Space
+            android:layout_width="@dimen/tools_element_gap"
+            android:layout_height="@dimen/tools_element_gap"/>
+
+        <GridLayout
+            android:id="@+id/paletteLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="3" />
+
+        <Space
+            android:layout_width="@dimen/tools_group_gap"
+            android:layout_height="@dimen/tools_group_gap"/>
+
+        <GridLayout
+            android:id="@+id/shapeLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="2"/>
+
+        <Space
+            android:layout_width="@dimen/tools_element_gap"
+            android:layout_height="@dimen/tools_element_gap"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonsLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:layout_margin="@dimen/tools_panel_margin"
+        android:background="@drawable/tool_panel_bg"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="@dimen/tools_element_gap"
+            android:layout_height="@dimen/tools_element_gap"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/undoButton"
+                android:layout_width="@dimen/tools_button_size"
+                android:layout_height="@dimen/tools_button_size"
+                android:background="@drawable/undo"/>
+
+            <Button
+                android:id="@+id/redoButton"
+                android:layout_width="@dimen/tools_button_size"
+                android:layout_height="@dimen/tools_button_size"
+                android:background="@drawable/redo"/>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="@dimen/tools_element_gap"
+            android:layout_height="@dimen/tools_element_gap"/>
+
+        <Button
+            android:id="@+id/resetButton"
+            android:layout_width="@dimen/tools_button_size"
+            android:layout_height="@dimen/tools_button_size"
+            android:background="@drawable/reset"/>
+
+        <Space
+            android:layout_width="@dimen/tools_group_gap"
+            android:layout_height="@dimen/tools_group_gap"/>
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="@dimen/tools_button_size"
+            android:layout_height="@dimen/tools_button_size"
+            android:background="@drawable/save"/>
+
+        <Space
+            android:layout_width="@dimen/tools_element_gap"
+            android:layout_height="@dimen/tools_element_gap"/>
+
+        <Button
+            android:id="@+id/mailButton"
+            android:layout_width="@dimen/tools_button_size"
+            android:layout_height="@dimen/tools_button_size"
+            android:background="@drawable/mail"/>
+
+        <Space
+            android:layout_width="@dimen/tools_group_gap"
+            android:layout_height="@dimen/tools_group_gap"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/zoomInButton"
+                android:layout_width="@dimen/tools_button_size"
+                android:layout_height="@dimen/tools_button_size"
+                android:background="@drawable/zoom_in"/>
+
+            <Button
+                android:id="@+id/zoomOutButton"
+                android:layout_width="@dimen/tools_button_size"
+                android:layout_height="@dimen/tools_button_size"
+                android:background="@drawable/zoom_out"/>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="@dimen/tools_group_gap"
+            android:layout_height="@dimen/tools_group_gap"/>
+
+        <Button
+            android:id="@+id/leftButton"
+            android:layout_width="@dimen/tools_button_size"
+            android:layout_height="@dimen/tools_button_size"
+            android:background="@drawable/left"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/upButton"
+                android:layout_width="@dimen/tools_button_size"
+                android:layout_height="@dimen/tools_button_size"
+                android:background="@drawable/up"/>
+
+            <Button
+                android:id="@+id/downButton"
+                android:layout_width="@dimen/tools_button_size"
+                android:layout_height="@dimen/tools_button_size"
+                android:background="@drawable/down"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/rightButton"
+            android:layout_width="@dimen/tools_button_size"
+            android:layout_height="@dimen/tools_button_size"
+            android:background="@drawable/right"/>
+
+        <Space
+            android:layout_width="@dimen/tools_element_gap"
+            android:layout_height="@dimen/tools_element_gap"/>
+
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>

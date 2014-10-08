@@ -1,0 +1,18 @@
+<resources>
+
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+
+    <dimen name="draw_size">16dp</dimen>
+
+    <dimen name="tools_panel_size">40dp</dimen>
+    <dimen name="tools_panel_land">80dp</dimen>
+    <dimen name="tools_panel_corner">4dp</dimen>
+    <dimen name="tools_button_size">24dp</dimen>
+
+    <dimen name="tools_panel_margin">4dp</dimen>
+
+    <dimen name="tools_group_gap">15dp</dimen>
+    <dimen name="tools_element_gap">4dp</dimen>
+
+</resources>

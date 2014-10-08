@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Shape Drawer</string>
+
+    <string name="menu_tools">Tools</string>
+    <string name="menu_exit">Exit</string>
+    <string name="menu_gallery">Gallery</string>
+
+</resources>

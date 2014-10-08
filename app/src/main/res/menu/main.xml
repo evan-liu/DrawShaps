@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/menuTools"
+        android:icon="@drawable/tools"
+        android:title="@string/menu_tools"
+        android:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menuGallery"
+        android:icon="@drawable/gallery"
+        android:title="@string/menu_gallery"
+        android:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menuExit"
+        android:icon="@drawable/exit"
+        android:title="@string/menu_exit"
+        android:showAsAction="ifRoom"/>
+
+</menu>
